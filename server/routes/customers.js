@@ -16,8 +16,6 @@ router.get("/", (req, res, next) => {
   });
 });
 
-
-
 // Create new customer
 router.post("/", (req, res, next) => {
   console.debug(req.body);
