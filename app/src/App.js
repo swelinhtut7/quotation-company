@@ -44,10 +44,10 @@ function App() {
         <Container>
           <Navbar.Brand href="#home">VMS Company</Navbar.Brand>
           <Nav className="nav">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/quotation">Quotation</Nav.Link>
-            <Nav.Link as={Link} to="/quotation-management">Quotation Management</Nav.Link>
-            <Nav.Link as={Link} to="/product-management"> Product </Nav.Link>
+            <Nav.Link as={Link} href="/">Home</Nav.Link>
+            <Nav.Link as={Link} href="/quotation">Quotation</Nav.Link>
+            <Nav.Link as={Link} href="/quotation-management">Quotation Management</Nav.Link>
+            <Nav.Link as={Link} href="/product-management"> Product </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
