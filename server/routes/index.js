@@ -6,6 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Swe Lin Htut' });
 });
 
-app.get(express.static("public"));
-
 module.exports = router;
