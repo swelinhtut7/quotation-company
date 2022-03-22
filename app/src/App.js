@@ -44,17 +44,17 @@ function App() {
           <Navbar.Brand href="#home">VMS Company</Navbar.Brand>
           <Nav className="nav">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/herokuapp/quotation">Quotation</Nav.Link>
-            <Nav.Link href="/quotation-management">Quotation Management</Nav.Link>
-            <Nav.Link href="/product-management"> Product </Nav.Link>
+            <Nav.Link href="https://company-6018184.herokuapp.com/quotation">Quotation</Nav.Link>
+            <Nav.Link href="https://company-6018184.herokuapp.com/quotation-management">Quotation Management</Nav.Link>
+            <Nav.Link href="https://company-6018184.herokuapp.com/product-management"> Product </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
 
       <Routes>
-        <Route path="/product-management" element={<ProductManagement />}/>
-        <Route path="/quotation" element={<Quotation />} />
-        <Route path="/quotation-management" element={<QuotationManagement />} />
+        <Route path="https://company-6018184.herokuapp.com/product-management" element={<ProductManagement />}/>
+        <Route path="https://company-6018184.herokuapp.com/quotation" element={<Quotation />} />
+        <Route path="https://company-6018184.herokuapp.com/quotation-management" element={<QuotationManagement />} />
         <Route path="/"
           element={
             <Container>
