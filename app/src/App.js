@@ -54,7 +54,7 @@ function App() {
 
       <Routes>
         <Route path="/product-management" element={<ProductManagement />}/>
-        <Route path="/quotation" element={<Quotation />} />
+        <Route path="https://company-6018184/quotation/herokuapp.com" element={<Quotation />} />
         <Route path="/quotation-management" element={<QuotationManagement />} />
         <Route path="/"
           element={
