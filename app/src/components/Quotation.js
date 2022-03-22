@@ -32,7 +32,7 @@ function Quotation() {
       });
   }, []);
 
-   const saveinsertItem=()=>{
+   const saveinsertDate=()=>{
 
     const newQuotation = {
       Date: new Date(),
