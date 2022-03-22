@@ -1,0 +1,47 @@
+.quotation-table{
+    position: absolute;
+    margin-top: 33%;
+    width: 80%;
+    margin-left: -56%;
+}
+
+.item-form{
+    position: relative;
+    margin-top: 3%;
+    left: 28%;
+    margin-bottom: 3%;
+}
+
+.item{
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.label{
+    position: relative;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.Trash{
+    cursor: pointer;
+}
+
+.Trash:hover{
+    color: red;
+    font-size: 20px;
+}
+
+.Edit{
+    cursor: pointer;
+}
+
+.Edit:hover{
+    color: blue;
+    font-size: 20px;
+}

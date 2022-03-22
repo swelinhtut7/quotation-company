@@ -1,0 +1,122 @@
+.nav-bar{
+    background-color: rgb(14, 14, 100);
+    font-size: 18px;
+    text-align: center;
+    font-family: times, "Times New Roman",;
+    color: white;
+}
+
+.nav{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    right: 30%;
+    letter-spacing: 1px;
+}
+
+.nav:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+.label1 {
+    position: relative;
+    margin-top: 5%;
+    width: 70%;
+    left: 15%;
+}
+
+.label2 {
+    position: relative;
+    margin-top: 2%;
+    width: 70%;
+    left: 15%;
+}
+
+form {
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    margin-top: 10%;
+    left: 23%;
+    height: 290px;
+}
+
+.box {
+    position: relative;
+    left: 15%;
+}
+
+.login-btn {
+    position: relative;
+    left: 35%;
+    margin-top: 4%;
+    width: 150px;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(71, 70, 70);
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 36px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.login-btn:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 36px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.login-btn:hover:after {
+    transform: translate(0, 0);
+}
+
+.login-btn:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.login-btn:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .login-btn {
+        padding: 0 40px;
+    }
+}
+
+.welcome{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
