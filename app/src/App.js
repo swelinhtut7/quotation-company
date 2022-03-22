@@ -5,6 +5,7 @@ import QuotationManagement from "./components/QuotationManagement";
 import ProductManagement from "./components/ProductManagement";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import { Login } from "./components/Login";
+import { Link } from 'react-router-dom';
 import "./styles/login.css"
 
 const API_URL = process.env.REACT_APP_API_URL;
@@ -43,18 +44,18 @@ function App() {
         <Container>
           <Navbar.Brand href="#home">VMS Company</Navbar.Brand>
           <Nav className="nav">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="https://company-6018184.herokuapp.com/quotation">Quotation</Nav.Link>
-            <Nav.Link href="https://company-6018184.herokuapp.com/quotation-management">Quotation Management</Nav.Link>
-            <Nav.Link href="https://company-6018184.herokuapp.com/product-management"> Product </Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/quotation">Quotation</Nav.Link>
+            <Nav.Link as={Link} to="/quotation-management">Quotation Management</Nav.Link>
+            <Nav.Link as={Link} to="/product-management"> Product </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
 
       <Routes>
-        <Route path="https://company-6018184.herokuapp.com/product-management" element={<ProductManagement />}/>
-        <Route path="https://company-6018184.herokuapp.com/quotation" element={<Quotation />} />
-        <Route path="https://company-6018184.herokuapp.com/quotation-management" element={<QuotationManagement />} />
+        <Route path="/product-management" element={<ProductManagement />}/>
+        <Route path="/quotation" element={<Quotation />} />
+        <Route path="/quotation-management" element={<QuotationManagement />} />
         <Route path="/"
           element={
             <Container>
