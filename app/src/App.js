@@ -45,7 +45,7 @@ function App() {
           <Navbar.Brand href="#home">VMS Company</Navbar.Brand>
           <Nav className="nav">
             <Nav.Link as={Link} href="/">Home</Nav.Link>
-            <Nav.Link as={Link} href="/quotation">Quotation</Nav.Link>
+            <Nav.Link as={Link} href="https://company-6018184/quotation/herokuapp.com">Quotation</Nav.Link>
             <Nav.Link as={Link} href="/quotation-management">Quotation Management</Nav.Link>
             <Nav.Link as={Link} href="/product-management"> Product </Nav.Link>
           </Nav>
