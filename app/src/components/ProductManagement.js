@@ -220,7 +220,7 @@ export default function ProductManagement() {
   return (
     <>
       <Container>
-        <h1 className="header">Product Management</h1>
+        <h1 className="header" style={{top: "40px"}}>Product Management</h1>
          {/* API_URL: {API_URL} */}
         <Button onClick={handleShowAdd} className='add'>
           <FaPlus/> Add
@@ -252,20 +252,20 @@ export default function ProductManagement() {
         <Modal.Body>
           <Form className="add-new-product">
             <Row>
-              <Col className="add-new-label">Code</Col>
-              <Col className="add-new-input">
+              <Col className="add-new-label" style={{top: "20px"}}>Code</Col>
+              <Col className="add-new-input" style={{top: "20px"}}>
                 <input type="text" ref={refCode} defaultValue={product.code} />
               </Col>
             </Row>
             <Row>
-              <Col className="add-new-label">Name</Col>
-              <Col className="add-new-input">
+              <Col className="add-new-label" style={{top: "20px"}}>Name</Col>
+              <Col className="add-new-input" style={{top: "20px"}}>
                 <input type="text" ref={refName} defaultValue={product.name} />
               </Col>
             </Row>
             <Row>
-              <Col className="add-new-label">Price</Col>
-              <Col className="add-new-input">
+              <Col className="add-new-label" style={{top: "20px"}}>Price</Col>
+              <Col className="add-new-input" style={{top: "20px"}}>
                 <input type="number" ref={refPrice} defaultValue={product.price}/>
               </Col>
             </Row>

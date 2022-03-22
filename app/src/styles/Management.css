@@ -28,7 +28,7 @@
     width: 100px;
     background-color: rgb(68, 92, 57);
     position: relative;
-    margin-top: 2%;
+    margin-top: 8%;
 }
 
 .add:hover{
@@ -39,7 +39,7 @@
 .create{
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 .create:hover{

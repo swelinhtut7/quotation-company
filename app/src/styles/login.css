@@ -6,16 +6,45 @@
     color: white;
 }
 
-.nav{
+.nav1{
     color: rgb(255, 255, 255);
     position: relative;
     text-align: center;
-    right: 30%;
+    right: 110%;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
-.nav:hover{
+.nav2{
     color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    right: 93%;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.nav3{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    right: 78%;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.nav4{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    right: 60%;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover{
+    color: rgb(245, 6, 6);
+    transition: 0.02ms;
     
 }
 

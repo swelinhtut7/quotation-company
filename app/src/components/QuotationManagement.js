@@ -84,8 +84,8 @@ export default function QuotationManagement() {
   return (
     <>
       <Container>
-        <h1 className="header">Quotation Management</h1>
-        <Link to='/react-quotation/quotation' ><Button className='create'>Create Quotation</Button></Link>
+        <h1 className="header" style={{top: "40px"}}>Quotation Management</h1>
+        <Link to='/quotation' ><Button className='create'>Create Quotation</Button></Link>
         <Table bordered hover className="table">
           <thead>
             <tr className="tableHeader">
